@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="dd" value="die(var_dump($END$));" description="die and vardump mixed together" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
