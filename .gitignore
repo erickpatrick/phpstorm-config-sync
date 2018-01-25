@@ -11,3 +11,4 @@ atlassian*
 /.grunt
 /.php_cs.cache
 /vendor
+/generated/*.csv
