@@ -1,0 +1,14 @@
+{
+    "name": "nintendo/translator",
+    "description": "Nintendo translator",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "PHPOffice/PHPExcel": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nintendo\\Translator\\": "src"
+        }
+    }
+}
