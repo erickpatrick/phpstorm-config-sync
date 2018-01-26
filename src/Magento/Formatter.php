@@ -1,8 +1,9 @@
-<?php namespace Nintendo\Translator;
+<?php namespace Nintendo\Translator\Magento;
 
-use Nintendo\Translator\Interfaces\DataFormatterInterface;
+use Nintendo\Translator\BaseTransformer;
+use Nintendo\Translator\Interfaces\DataTransporter;
 
-class TranslationDataFormatter implements DataFormatterInterface
+class Formatter extends BaseTransformer
 {
     const CONCATENATE_REFERENCE_VALUE = 'concatenate';
     const DYNAMIC_CONTENT_STRING = 'XX';
@@ -19,14 +20,14 @@ class TranslationDataFormatter implements DataFormatterInterface
     /**
      * takes as text parts and concatenates them into full sentences
      *
-     * @param array $translations
-     * @return array
+     * @param DataTransporter $transporter
+     * @return DataTransporter
      */
-    public function execute(array $translations): array
+    public function execute(DataTransporter $transporter): DataTransporter
     {
-        return array_map(function ($translation) {
+        return $this->next($transporter, array_map(function ($translation) {
             return $this->getConcatenatedStrings($translation);
-        }, $translations);
+        }, $transporter->getData()));
     }
 
     /**

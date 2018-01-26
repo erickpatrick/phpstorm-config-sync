@@ -1,23 +1,24 @@
-<?php namespace Nintendo\Translator;
+<?php namespace Nintendo\Translator\Magento;
 
-use Nintendo\Translator\Interfaces\FileCreatorInterface;
+use Nintendo\Translator\BaseTransformer;
+use Nintendo\Translator\Interfaces\DataTransporter;
 
-class TranslationToCsvFileCreator implements FileCreatorInterface
+class Creator extends BaseTransformer
 {
 
     /**
-     * @param array $content
-     * @return array
+     * @param DataTransporter $transporter
+     * @return DataTransporter
      */
-    public function execute(array $content): array
+    public function execute(DataTransporter $transporter): DataTransporter
     {
         $filenames = [];
 
-        foreach ($content as $filename => $fileContent) {
+        foreach ($transporter->getData() as $filename => $fileContent) {
             $filenames[] = $this->writeToFile($filename, $fileContent);
         }
 
-        return $filenames;
+        return $transporter->setData($filenames);
     }
 
     /**
