@@ -35,9 +35,9 @@
       <mask>*.x</mask>
       <mask>*.xm</mask>
       <mask>system.xml</mask>
-      <mask>*.php</mask>
       <mask>*.xml</mask>
       <mask>*.phtml</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
