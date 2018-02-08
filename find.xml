@@ -7,7 +7,6 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
       <mask>*.js,*.vue,*.sc</mask>
       <mask>*.js,*.vue,*.scs</mask>
@@ -37,8 +36,8 @@
       <mask>*.xm</mask>
       <mask>system.xml</mask>
       <mask>*.phtml</mask>
-      <mask>*.php</mask>
       <mask>*.xml</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
