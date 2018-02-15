@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
       <mask>*.js,*.vue,*.scs</mask>
       <mask>*.js,*.vue,*.scss</mask>
@@ -31,9 +32,9 @@
       <mask>*.xm</mask>
       <mask>system.xml</mask>
       <mask>*.php</mask>
-      <mask>*.xml</mask>
       <mask>*.phtml</mask>
       <mask>*.js,*.vue,*.sc</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
