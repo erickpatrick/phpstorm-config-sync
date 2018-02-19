@@ -1,39 +1,25 @@
-<?php namespace Nintendo\Translator;
+<?php namespace Nintendo\Translator\Magento;
 
+use Nintendo\Translator\BaseTransformer;
+use Nintendo\Translator\Interfaces\DataTransporter;
 use PHPExcel;
 use PHPExcel_IOFactory;
 use PHPExcel_Reader_Exception;
 use PHPExcel_Worksheet_Column;
 use PHPExcel_Worksheet_ColumnIterator;
-use Nintendo\Translator\Interfaces\DataBuilderInterface;
 
-class TranslationDataBuilder implements DataBuilderInterface
+class Builder extends BaseTransformer
 {
     const EXCLUDED_WORKSHEETS = ['C', 'D', 'E'];
     const EXCLUDED_COLUMNS_INDEXES = ['B', 'C', 'D'];
 
-    private $excelFilename;
-
     /**
-     * TranslationDataBuilder constructor.
-     * @param string $excelFilename
+     * @param DataTransporter $transporter
+     * @return DataTransporter
      */
-    public function __construct(string $excelFilename)
+    public function execute(DataTransporter $transporter): DataTransporter
     {
-        $this->excelFilename = $excelFilename;
-    }
-
-    /**
-     * @return array
-     */
-    public function execute(): array
-    {
-        try {
-            $spreadsheet = $this->getSpreadsheet();
-        } catch (PHPExcel_Reader_Exception $exception) {
-            echo $exception->getMessage();
-            die();
-        }
+        $spreadsheet = $this->openSpreadsheet($transporter->getData());
 
         $sheetNames = $this->getWorksheetsNames(
             $spreadsheet->getSheetNames()
@@ -42,21 +28,22 @@ class TranslationDataBuilder implements DataBuilderInterface
         $worksheets = $this->getWorksheets($spreadsheet, $sheetNames);
         $worksheetsColumns = $this->getWorksheetsColumns($worksheets);
 
-        return $this->getAllTranslationsStrings($worksheetsColumns);
+        return $this->next($transporter, $this->getAllTranslationsStrings($worksheetsColumns));
     }
 
     /**
+     * @param string $excelFilename
      * @return PHPExcel
      * @throws PHPExcel_Reader_Exception
      */
-    private function getSpreadsheet(): PHPExcel
+    private function getSpreadsheet(string $excelFilename): PHPExcel
     {
         try {
             $reader = PHPExcel_IOFactory::createReader(
-                PHPExcel_IOFactory::identify($this->excelFilename)
+                PHPExcel_IOFactory::identify($excelFilename)
             );
 
-            return $reader->load($this->excelFilename);
+            return $reader->load($excelFilename);
         } catch (PHPExcel_Reader_Exception $exception) {
             throw new PHPExcel_Reader_Exception($exception->getMessage());
         }
@@ -149,5 +136,19 @@ class TranslationDataBuilder implements DataBuilderInterface
         }
 
         return $translations;
+    }
+
+    /**
+     * @param string $excelFilename
+     * @return PHPExcel
+     */
+    private function openSpreadsheet(string $excelFilename): PHPExcel
+    {
+        try {
+            return $this->getSpreadsheet($excelFilename);
+        } catch (PHPExcel_Reader_Exception $exception) {
+            echo $exception->getMessage();
+            die();
+        }
     }
 }

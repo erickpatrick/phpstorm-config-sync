@@ -1,18 +1,19 @@
-<?php namespace Nintendo\Translator;
+<?php namespace Nintendo\Translator\Magento;
 
-use Nintendo\Translator\Interfaces\DataMergerInterface;
+use Nintendo\Translator\BaseTransformer;
+use Nintendo\Translator\Interfaces\DataTransporter;
 
-class TranslationDataMerger implements DataMergerInterface
+class Merger extends BaseTransformer
 {
     /**
-     * @param array $formattedTranslations
-     * @return array
+     * @param DataTransporter $transporter
+     * @return DataTransporter
      */
-    public function execute(array $formattedTranslations): array
+    public function execute(DataTransporter $transporter): DataTransporter
     {
-        $languagePairs = $this->createLanguagesPairs($formattedTranslations);
+        $languagePairs = $this->createLanguagesPairs($transporter->getData());
 
-        return $this->removeDuplicatedEntries($languagePairs);
+        return $this->next($transporter, $this->removeDuplicatedEntries($languagePairs));
     }
 
     /**
