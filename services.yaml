@@ -1,0 +1,17 @@
+services:
+  transporter:
+    class: Nintendo\Translator\Data
+  builder:
+    class: Nintendo\Translator\Magento\Builder
+    calls:
+      - [setNext, ['@formatter']]
+  formatter:
+    class: Nintendo\Translator\Magento\Formatter
+    calls:
+      - [setNext, ['@merger']]
+  merger:
+      class: Nintendo\Translator\Magento\Merger
+      calls:
+        - [setNext, ['@creator']]
+  creator:
+      class: Nintendo\Translator\Magento\Creator
