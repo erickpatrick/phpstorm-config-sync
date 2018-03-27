@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fd3a8e4a-bf93-41ab-9ad0-1a709078eda0" name="Homestead Nintendo" url="http://local.nintendo.de">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
