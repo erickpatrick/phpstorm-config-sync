@@ -1,4 +1,10 @@
 <application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="vagrant://C:/Users/dealveri/PhpstormProjects/homestead/usr/bin/php7.2" id="aedffa73-c340-4af6-8e8d-4fc0d758bb2e" name="Homestead PHP 7.2" debugger_id="php.debugger.XDebug">

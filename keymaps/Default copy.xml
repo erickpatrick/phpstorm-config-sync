@@ -1,0 +1,24 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateFindToolWindow" />
+  <action id="AssociateWithFileType">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="shift ctrl alt space" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+  </action>
+  <action id="UML.ShowChanges" />
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="alt 8" />
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+</keymap>
