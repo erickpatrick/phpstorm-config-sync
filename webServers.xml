@@ -9,6 +9,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="734df978-7417-4983-abdb-c2778b6582f1" name="Portfolio" url="http://local.nintendo.de">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant/portfolio" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
