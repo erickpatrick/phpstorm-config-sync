@@ -8,6 +8,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="bootstraprc" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".maintenance.flag" type="PLAIN_TEXT" />
       <mapping ext="csv" type="Twig" />
       <mapping pattern="config,yml" type="YAML" />
     </extensionMap>
