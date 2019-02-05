@@ -1,19 +1,46 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="ActivateRemoteHostToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl numpad3" />
+  </action>
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl numpad2" />
   </action>
   <action id="AssociateWithFileType">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl numpad7" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad0" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl numpad9" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl numpad8" />
+  </action>
   <action id="HideActiveWindow">
-    <keyboard-shortcut first-keystroke="shift escape" />
-    <keyboard-shortcut first-keystroke="alt equals" />
+    <keyboard-shortcut first-keystroke="alt numpad0" />
   </action>
   <action id="PublishGroup.Upload">
-    <keyboard-shortcut first-keystroke="shift ctrl alt space" />
+    <keyboard-shortcut first-keystroke="alt decimal" />
   </action>
+  <action id="PublishGroup.UploadTo" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -25,8 +52,4 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
   <action id="UML.ShowChanges" />
-  <action id="WebDeployment.BrowseServers">
-    <keyboard-shortcut first-keystroke="alt 8" />
-    <keyboard-shortcut first-keystroke="alt 3" />
-  </action>
 </keymap>
