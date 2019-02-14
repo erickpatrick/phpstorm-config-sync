@@ -62,5 +62,16 @@
     <ignoreAction name="XSLT/Convert if to choose" />
     <ignoreAction name="XSLT/Inline xsl:attribute" />
     <ignoreAction name="XSLT/Replace with xsl:attribute" />
+    <ignoreAction name="PHP/Group use statements by selected prefix" />
+    <ignoreAction name="PHP/Inject language using PHPDoc" />
+    <ignoreAction name="PHP/Replace 'if' with 'switch'" />
+    <ignoreAction name="PHP/Replace 'switch' with 'if'" />
+    <ignoreAction name="PHP/Replace ternary expression with if clause" />
+    <ignoreAction name="PHP/Replace with alias" />
+    <ignoreAction name="PHP/Split selected group use statement" />
+    <ignoreAction name="PHP/Split string in two strings and concatenation" />
+    <ignoreAction name="PHP/Surround with '!empty'" />
+    <ignoreAction name="PHP/Surround with 'isset'" />
+    <ignoreAction name="PHP/Swap call arguments" />
   </component>
 </application>

@@ -2,6 +2,55 @@
   <component name="PostfixTemplatesSettings">
     <option name="postfixTemplatesEnabled" value="false" />
     <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.js">
+        <value>
+          <set>
+            <option value="com.intellij.lang.javascript.template.postfix.JSAwaitPostfixTemplate#.await" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSElseStatementPostfixTemplate#.else" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSForInPostfixTemplate#.forin" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSForInPostfixTemplate#.itin" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIfInstanceOfPostfixTemplate#.instanceof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIfStatementPostfixTemplate#.if" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIfTypeOfPostfixTemplate#.typeofif" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIntroduceConstPostfixTemplate#.const" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIntroduceLetPostfixTemplate#.let" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIntroduceVarPostfixTemplate#.var" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSLogPostfixTemplate#.log" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNotExpressionPostfixTemplate#!" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNotExpressionPostfixTemplate#.not" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNotNullStatementPostfixTemplate#.notnull" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNullStatementPostfixTemplate#.null" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSParenthesizedPostfixTemplate#.par" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSReturnStatementPostfixTemplate#.return" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSSwitchPostfixTemplate#.switch" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSThrowStatementPostfixTemplate#.throw" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSTypeOfExpressionPostfixTemplate#.typeof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSUndefPostfixTemplate#.undef" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="builtin.php">
+        <value>
+          <set>
+            <option value="com.jetbrains.php.postfixCompletion.PhpEchoPostfixTemplate#.echo" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpElsePostfixTemplate#.else" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpForeachPostfixTemplate#.fe" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIfPostfixTemplate#.if" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIntroduceVarPostfixTemplate#.var" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.nn" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.notnull" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNullPostfixTemplate#.null" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIssetPostfixTemplate#.isset" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#!" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#.not" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpParenPostfixTemplate#.par" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpReturnPostfixTemplate#.return" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpThrowPostfixTemplate#.throw" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpVarDumpPostfixTemplate#.var_dump" />
+          </set>
+        </value>
+      </disabled-templates>
       <disabled-templates provider="builtin.ts">
         <value>
           <set>
