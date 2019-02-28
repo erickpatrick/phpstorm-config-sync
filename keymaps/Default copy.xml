@@ -37,6 +37,9 @@
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="alt numpad0" />
   </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad5" />
+  </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="alt decimal" />
   </action>
