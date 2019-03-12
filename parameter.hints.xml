@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\PHPUnit\Framework\TestCase.getMockBuilder(className)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
