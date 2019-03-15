@@ -3,6 +3,7 @@
     <option name="customScope" value="DO NOT COMMIT" />
     <option name="defaultScopeName" value="DO NOT COMMIT" />
     <option name="SEARCH_SCOPE" value="DO NOT COMMIT" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
