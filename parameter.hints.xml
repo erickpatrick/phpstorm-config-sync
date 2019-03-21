@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="PHP">
         <added pattern="\PHPUnit\Framework\TestCase.getMockBuilder(className)" />
+        <added pattern="\PHPUnit\Framework\TestCase.createMock(originalClassName)" />
       </blacklist>
     </blacklists>
   </component>
