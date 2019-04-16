@@ -3,18 +3,30 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/phpstan.neon" timestamp="1555418387111">
+        <mark key="[" line="6" column="37" />
+        <mark key="]" line="7" column="29" />
+        <mark key="^" line="7" column="29" />
+        <mark key="." line="7" column="29" />
+      </file>
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/view/frontend/templates/payment.phtml" timestamp="1555418444418">
+        <mark key="[" line="82" column="30" />
+        <mark key="]" line="85" column="34" />
+        <mark key="^" line="85" column="34" />
+        <mark key="." line="85" column="34" />
+      </file>
       <file name="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" timestamp="1555408367483">
         <mark key="[" line="3" column="7" />
         <mark key="]" line="4" column="7" />
         <mark key="^" line="4" column="7" />
         <mark key="." line="4" column="7" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" timestamp="1555415324542">
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" timestamp="1555418526031">
         <mark key="'" line="254" column="6" />
-        <mark key="[" line="343" column="51" />
-        <mark key="]" line="343" column="51" />
-        <mark key="^" line="343" column="51" />
-        <mark key="." line="343" column="51" />
+        <mark key="[" line="264" column="52" />
+        <mark key="]" line="267" column="42" />
+        <mark key="^" line="267" column="42" />
+        <mark key="." line="267" column="42" />
       </file>
       <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-configuration/Block/Template.php" timestamp="1555412393132">
         <mark key="[" line="2" column="4" />
@@ -43,10 +55,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">JHRoaXMtPmNvb2tpZS0+Z2V0Q29va2llKCdwYXltZW50LWNhcmQnKQ==</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>;</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>setItems</text>
@@ -98,8 +110,8 @@
         <entry>setItems</entry>
       </history-search>
       <history-cmd>
-        <entry>q</entry>
         <entry>344</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
