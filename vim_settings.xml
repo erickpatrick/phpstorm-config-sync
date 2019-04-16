@@ -9,11 +9,20 @@
         <mark key="^" line="4" column="7" />
         <mark key="." line="4" column="7" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" timestamp="1555410320224">
-        <mark key="[" line="65" column="7" />
-        <mark key="]" line="29" column="24" />
-        <mark key="." line="29" column="24" />
-        <mark key="^" line="29" column="24" />
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" timestamp="1555412476114">
+        <mark key="]" line="179" column="7" />
+        <mark key="^" line="179" column="7" />
+        <mark key="." line="179" column="7" />
+      </file>
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-configuration/Block/Template.php" timestamp="1555412393132">
+        <mark key="[" line="2" column="4" />
+        <mark key="]" line="2" column="42" />
+      </file>
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/PayOn/FormTokenCreator.php" timestamp="1555412252424">
+        <mark key="[" line="36" column="21" />
+        <mark key="]" line="36" column="19" />
+        <mark key="^" line="36" column="19" />
+        <mark key="." line="36" column="19" />
       </file>
     </filemarks>
     <jumps>
@@ -24,32 +33,47 @@
       <jump line="85" column="37" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" />
     </jumps>
     <registers>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIC8qKiBAdmFyIFxOaW50ZW5kb1xQYXltZW50XE1vZGVsXFVzZXJzU2F2ZWRNZXRob2RzUmVwb3NpdG9yeSAqLwogICAgcHJpdmF0ZSAkbWV0aG9kczsKCiAgICAvKiogQHZhciBcTWFnZW50b1xGcmFtZXdvcmtcQXBpXFNlYXJjaENyaXRlcmlhSW50ZXJmYWNlICovCiAgICBwcml2YXRlICRjcml0ZXJpYTsK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAqIEBwYXJhbSBVc2Vyc1NhdmVkTWV0aG9kc1JlcG9zaXRvcnkgJG1ldGhvZHMK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBVc2Vyc1NhdmVkTWV0aG9kc1JlcG9zaXRvcnkgJG1ldGhvZHMsCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAkdGhpcy0+bWV0aG9kcyA9ICRtZXRob2RzOwogICAgICAgICR0aGlzLT5jcml0ZXJpYSA9ICRjcml0ZXJpYTtWCg==</text>
-      </register>
-      <register name=":" type="4">
-        <text>w</text>
+        <text encoding="base64">ICAgICAgICBpZiAoJHJldmlld0l0ZW1zQmxvY2spCg==</text>
       </register>
       <register name="-" type="4">
-        <text>f</text>
+        <text encoding="base64">KG9iamVjdCkkdGhpcy0+Y3VycmVudENhcnQtPmdldEJpbGxpbmdBZGRyZXNzKCktPmdldERhdGEoKTs=</text>
       </register>
       <register name="/" type="4">
         <text>criteria</text>
+      </register>
+      <register name="0" type="4">
+        <text>Magento\Framework\View\Element\Template</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoJHJldmlld0l0ZW1zQmxvY2spCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIC8qKiBAdmFyIEd1ZXN0Q2FydFJlcG9zaXRvcnkgKi8KICAgIHByaXZhdGUgJGd1ZXN0Q2FydDsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAkdGhpcy0+Z3Vlc3RDYXJ0ID0gJGd1ZXN0Q2FydDsK</text>
+      </register>
+      <register name="5" type="8">
+        <text>t</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgIC8qKiBAdmFyIFxNYWdlbnRvXEZyYW1ld29ya1xBcHBcQ29uZmlnXFNjb3BlQ29uZmlnSW50ZXJmYWNlICovCiAgICBwcml2YXRlICRzY29wZUNvbmZpZzs=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAkdGhpcy0+c2NvcGVDb25maWcgPSAkdGhpcy0+X3Njb3BlQ29uZmlnOwo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
       </register>
     </registers>
     <search>
