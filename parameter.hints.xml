@@ -1,9 +1,13 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="JavaScript" />
       <blacklist language="PHP">
         <added pattern="\PHPUnit\Framework\TestCase.getMockBuilder(className)" />
         <added pattern="\PHPUnit\Framework\TestCase.createMock(originalClassName)" />
+        <added pattern="\Magento\Framework\Event\ManagerInterface.dispatch(eventName,data)" />
+        <removed pattern="" />
       </blacklist>
     </blacklists>
   </component>
