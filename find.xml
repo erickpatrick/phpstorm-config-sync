@@ -1,9 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\vendor\nintendo\nintendo-product [Nintendo]'" />
-    <option name="defaultScopeName" value="Directory '...\vendor\nintendo\nintendo-product [Nintendo]'" />
-    <option name="SEARCH_SCOPE" value="Directory '...\vendor\nintendo\nintendo-product [Nintendo]'" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="customScope" value="FrontendAssets" />
+    <option name="defaultScopeName" value="FrontendAssets" />
+    <option name="SEARCH_SCOPE" value="FrontendAssets" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
