@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="FrontendAssets" />
     <option name="defaultScopeName" value="FrontendAssets" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="FrontendAssets" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
