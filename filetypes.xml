@@ -13,7 +13,6 @@
       <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping pattern="config,yml" type="YAML" />
-      <mapping ext="csv" type="Twig" />
     </extensionMap>
   </component>
 </application>
