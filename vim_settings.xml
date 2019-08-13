@@ -15,18 +15,18 @@
         <mark key="^" line="85" column="34" />
         <mark key="." line="85" column="34" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" timestamp="1555408367483">
-        <mark key="[" line="3" column="7" />
-        <mark key="]" line="4" column="7" />
-        <mark key="^" line="4" column="7" />
-        <mark key="." line="4" column="7" />
-      </file>
       <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" timestamp="1555419184414">
         <mark key="'" line="254" column="6" />
         <mark key="[" line="272" column="46" />
         <mark key="]" line="272" column="47" />
         <mark key="^" line="272" column="47" />
         <mark key="." line="272" column="47" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" timestamp="1555408367483">
+        <mark key="[" line="3" column="7" />
+        <mark key="]" line="4" column="7" />
+        <mark key="^" line="4" column="7" />
+        <mark key="." line="4" column="7" />
       </file>
       <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-configuration/Block/Template.php" timestamp="1555412393132">
         <mark key="[" line="2" column="4" />
@@ -44,6 +44,13 @@
         <mark key="^" line="36" column="19" />
         <mark key="." line="36" column="19" />
       </file>
+      <file name="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-product/etc/di.xml" timestamp="1565706256885">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="11" column="7" />
+        <mark key="]" line="11" column="6" />
+        <mark key="^" line="11" column="6" />
+        <mark key="." line="11" column="6" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="110" column="12" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" />
@@ -52,6 +59,7 @@
       <jump line="50" column="13" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" />
       <jump line="85" column="37" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" />
       <jump line="254" column="6" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-payment/Block/Payment.php" />
+      <jump line="0" column="0" filename="$USER_HOME$/PhpstormProjects/Nintendo/vendor/nintendo/nintendo-product/etc/di.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -94,7 +102,7 @@
         <text encoding="base64">ICAgICAgICAkdGhpcy0+c2NvcGVDb25maWcgPSAkdGhpcy0+X3Njb3BlQ29uZmlnOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>e vendor/nintendo/nintendo-solr/registration.php</text>
       </register>
     </registers>
     <search>
@@ -113,6 +121,7 @@
         <entry>344</entry>
         <entry>q</entry>
         <entry>w</entry>
+        <entry>e vendor/nintendo/nintendo-solr/registration.php</entry>
       </history-cmd>
       <history-expr />
       <history-input />
