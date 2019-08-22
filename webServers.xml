@@ -17,6 +17,9 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="071216af-a256-4448-bde9-6c88ace483f1" name="Erick's site" url="http://localhost:3000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
