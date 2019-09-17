@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="FrontendAssets" />
+    <option name="defaultScopeName" value="FrontendAssets" />
+    <option name="SEARCH_SCOPE" value="FrontendAssets" />
+    <option name="FILE_MASK" value="*.JS" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -20,5 +21,6 @@
     <mask>*.xml</mask>
     <mask>*.phtml</mask>
     <mask>*.php</mask>
+    <mask>*.JS</mask>
   </component>
 </application>
