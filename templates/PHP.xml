@@ -16,9 +16,6 @@
     <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="thr" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
   <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
@@ -34,11 +31,6 @@
   <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="pubf" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="pubsf" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
@@ -50,11 +42,6 @@
     <context />
   </template>
   <template name="prosf" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
