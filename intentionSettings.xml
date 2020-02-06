@@ -73,5 +73,6 @@
     <ignoreAction name="PHP/Surround with '!empty'" />
     <ignoreAction name="PHP/Surround with 'isset'" />
     <ignoreAction name="PHP/Swap call arguments" />
+    <ignoreAction name="PHP/Convert list to traditional syntax" />
   </component>
 </application>
