@@ -14,6 +14,7 @@
       <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
+      <mapping pattern="payments_listing_view" type="XML" />
       <mapping pattern="config,yml" type="YAML" />
     </extensionMap>
   </component>
