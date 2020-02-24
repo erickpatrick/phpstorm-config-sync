@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Default" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -21,9 +21,9 @@
     <mask>*.phtml</mask>
     <mask>*.JS</mask>
     <mask>*.csv</mask>
-    <mask>*.xml</mask>
     <mask>*.vue</mask>
     <mask>*.scss</mask>
     <mask>*.php</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
