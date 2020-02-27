@@ -46,4 +46,9 @@
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="tobj" value="$objectManager = new ObjectManager($this);" description="Magento test object managetr" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
