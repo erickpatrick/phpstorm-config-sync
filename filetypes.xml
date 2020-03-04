@@ -11,7 +11,6 @@
       <mapping pattern="bootstraprc" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".maintenance.flag" type="PLAIN_TEXT" />
-      <mapping ext="neon" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping pattern="payments_listing_view" type="XML" />
