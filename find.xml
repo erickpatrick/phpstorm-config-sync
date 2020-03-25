@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="FrontendAssets" />
     <option name="defaultScopeName" value="FrontendAssets" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="FrontendAssets" />
+    <option name="FILE_MASK" value="*.csv" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,11 +19,11 @@
     <mask>di.xml</mask>
     <mask>*.phtml</mask>
     <mask>*.JS</mask>
-    <mask>*.csv</mask>
     <mask>*.vue</mask>
     <mask>*.scss</mask>
     <mask>*Test.php</mask>
     <mask>*.xml</mask>
     <mask>*.php</mask>
+    <mask>*.csv</mask>
   </component>
 </application>
