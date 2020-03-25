@@ -1,13 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="FrontendAssets" />
     <option name="defaultScopeName" value="FrontendAssets" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="FrontendAssets" />
-    <option name="FILE_MASK" value="*.scss" />
+    <option name="FILE_MASK" value="*.phtml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -19,7 +15,6 @@
     <mask>*,phtml</mask>
     <mask>*.spec.js</mask>
     <mask>di.xml</mask>
-    <mask>*.phtml</mask>
     <mask>*.JS</mask>
     <mask>*.vue</mask>
     <mask>*Test.php</mask>
@@ -27,5 +22,6 @@
     <mask>*.php</mask>
     <mask>*.csv</mask>
     <mask>*.scss</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
