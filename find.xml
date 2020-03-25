@@ -3,9 +3,11 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="FrontendAssets" />
     <option name="defaultScopeName" value="FrontendAssets" />
+    <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="FrontendAssets" />
-    <option name="FILE_MASK" value="*.csv" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -20,10 +22,10 @@
     <mask>*.phtml</mask>
     <mask>*.JS</mask>
     <mask>*.vue</mask>
-    <mask>*.scss</mask>
     <mask>*Test.php</mask>
     <mask>*.xml</mask>
     <mask>*.php</mask>
     <mask>*.csv</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
