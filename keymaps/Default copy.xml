@@ -1,25 +1,31 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
   </action>
   <action id="ActivateRemoteHostToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl numpad3" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl h" />
   </action>
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl numpad2" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl v" />
   </action>
   <action id="AssociateWithFileType">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl numpad7" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl alt numpad0" />
@@ -28,7 +34,7 @@
     <keyboard-shortcut first-keystroke="ctrl numpad9" />
   </action>
   <action id="Git.Branches">
-    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl b" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
@@ -36,9 +42,19 @@
   </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="alt numpad0" />
+    <keyboard-shortcut first-keystroke="shift escape" />
+  </action>
+  <action id="MainMenu">
+    <keyboard-shortcut first-keystroke="shift k" second-keystroke="shift v" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="ctrl alt numpad5" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl j" />
   </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="alt decimal" />
@@ -47,6 +63,9 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl 1" />
   </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt d" />
