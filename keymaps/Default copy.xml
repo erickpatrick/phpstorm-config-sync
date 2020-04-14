@@ -33,6 +33,9 @@
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl alt numpad0" />
   </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl m" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl numpad9" />
   </action>
