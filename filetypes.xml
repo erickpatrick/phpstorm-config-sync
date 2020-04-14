@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="*.blade.md" type="Markdown" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern="test file" type="PLAIN_TEXT" />
       <mapping pattern="sadasd" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
