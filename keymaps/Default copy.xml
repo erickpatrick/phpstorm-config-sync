@@ -27,6 +27,9 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
   </action>
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl r" />
+  </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl alt numpad0" />
   </action>
@@ -60,6 +63,9 @@
     <keyboard-shortcut first-keystroke="alt decimal" />
   </action>
   <action id="PublishGroup.UploadTo" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
+  </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
