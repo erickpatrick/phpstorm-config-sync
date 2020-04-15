@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="M2Nintendo" />
+    <option name="defaultScopeName" value="M2Nintendo" />
+    <option name="SEARCH_SCOPE" value="M2Nintendo" />
+    <option name="FILE_MASK" value="*Test.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,12 +17,12 @@
     <mask>di.xml</mask>
     <mask>*.JS</mask>
     <mask>*.vue</mask>
-    <mask>*Test.php</mask>
     <mask>*.xml</mask>
     <mask>*.php</mask>
     <mask>*.csv</mask>
     <mask>*.scss</mask>
     <mask>*.phtml</mask>
     <mask>menu.xml</mask>
+    <mask>*Test.php</mask>
   </component>
 </application>
