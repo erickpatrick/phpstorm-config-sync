@@ -51,4 +51,9 @@
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="pumm" value="$varNameHere&#10;  -&gt;expects(self::once())&#10;  -&gt;method('methodNameHere')&#10;  -&gt;willReturn('something')" description="phpunit method mock" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
