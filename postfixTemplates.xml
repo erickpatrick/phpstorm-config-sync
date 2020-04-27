@@ -35,19 +35,10 @@
           <set>
             <option value="com.jetbrains.php.postfixCompletion.PhpEchoPostfixTemplate#.echo" />
             <option value="com.jetbrains.php.postfixCompletion.PhpElsePostfixTemplate#.else" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpForeachPostfixTemplate#.fe" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpIfPostfixTemplate#.if" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpIntroduceVarPostfixTemplate#.var" />
             <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.nn" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.notnull" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpIsNullPostfixTemplate#.null" />
             <option value="com.jetbrains.php.postfixCompletion.PhpIssetPostfixTemplate#.isset" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#!" />
             <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#.not" />
             <option value="com.jetbrains.php.postfixCompletion.PhpParenPostfixTemplate#.par" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpReturnPostfixTemplate#.return" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpThrowPostfixTemplate#.throw" />
-            <option value="com.jetbrains.php.postfixCompletion.PhpVarDumpPostfixTemplate#.var_dump" />
           </set>
         </value>
       </disabled-templates>
