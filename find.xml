@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="Default" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Default" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -18,12 +19,12 @@
     <mask>di.xml</mask>
     <mask>*.JS</mask>
     <mask>*.vue</mask>
-    <mask>*.xml</mask>
     <mask>*.csv</mask>
     <mask>*.scss</mask>
     <mask>*.phtml</mask>
     <mask>menu.xml</mask>
     <mask>*Test.php</mask>
     <mask>*.php</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
