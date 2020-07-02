@@ -3,7 +3,7 @@
     <configs>
       <sshConfig authType="PASSWORD" host="127.0.0.1" id="4438b41e-f415-4698-a767-779004e47ea3" port="2222" customName="Homestead Nintendo" nameFormat="CUSTOM" username="vagrant" />
       <sshConfig authType="PASSWORD" host="127.0.0.1" id="8dbd9648-1e66-406a-825f-167d3bfe7786" port="2222" customName="Portfolio" nameFormat="CUSTOM" username="vagrant" />
-      <sshConfig authType="PASSWORD" host="127.0.0.1" id="a920e845-954f-4837-b9b3-7dbc59a6a164" port="2222" customName="Portfolio" nameFormat="CUSTOM" username="vagrant" />
+      <sshConfig authType="PASSWORD" host="127.0.0.1" id="9de66eda-7d06-42ec-89e3-3c0a64492412" port="2222" customName="Portfolio" nameFormat="CUSTOM" username="vagrant" />
     </configs>
   </component>
 </application>
