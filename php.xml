@@ -1,5 +1,4 @@
 <application>
-  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
   <component name="PhpSmartKeysConfiguration">
     <option name="smartFunctionParametersCompletion" value="true" />
   </component>
