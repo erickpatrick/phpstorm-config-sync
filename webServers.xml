@@ -1,24 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="fd3a8e4a-bf93-41ab-9ad0-1a709078eda0" name="Homestead Nintendo" url="http://local.nintendo.de">
-        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant" accessType="SFTP">
+      <webServer id="fd3a8e4a-bf93-41ab-9ad0-1a709078eda0" name="Homestead Nintendo" url="https://local.nintendo.de">
+        <fileTransfer rootFolder="/home/vagrant" accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="8314ce4c-ff94-4f5f-8ed3-8817e0f950e4" sshConfig="Homestead Nintendo">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
       <webServer id="734df978-7417-4983-abdb-c2778b6582f1" name="Portfolio" url="http://local.nintendo.de">
-        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/home/vagrant/portfolio" accessType="SFTP">
+        <fileTransfer rootFolder="/home/vagrant/portfolio" accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="f19d90da-9c37-41df-bae7-3b436c35e4e2" sshConfig="Portfolio">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
       <webServer id="071216af-a256-4448-bde9-6c88ace483f1" name="Erick's site" url="http://localhost:3000">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
